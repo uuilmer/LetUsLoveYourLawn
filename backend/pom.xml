@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.lyl</groupId>
-  <artifactId>love_your_lawn</artifactId>
+  <artifactId>backend</artifactId>
   <version>1.0</version>
 
-  <name>love_your_lawn</name>
+  <name>backend</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.letusloveyourlawn.com</url>
 
@@ -24,6 +24,11 @@
       <artifactId>junit</artifactId>
       <version>4.11</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.sparkjava</groupId>
+      <artifactId>spark-core</artifactId>
+      <version>2.9.4</version>
     </dependency>
   </dependencies>
 
