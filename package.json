@@ -3,7 +3,7 @@
   "description": "Apps for Georgia landscaping company Let us love your lawn",
   "main": "backend/index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open --hot",
+    "start": "npm run build && node .",
     "build": "webpack --mode production"
   },
   "dependencies": {
